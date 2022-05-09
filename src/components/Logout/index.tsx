@@ -1,11 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Logout = () => {
-  return (
-    <button>
-      <Link to="/">Logout</Link>
-    </button>
-  );
+  return <Link to="/">Logout</Link>;
 };
 
 export default Logout;
