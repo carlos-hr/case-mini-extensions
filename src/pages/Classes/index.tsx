@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Classes = () => {
   return (
-    <div className="container">
+    <div className="classes-container">
       <button className="logout-button">
         <Logout />
       </button>

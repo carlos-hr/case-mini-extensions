@@ -1,1 +1,1 @@
-export const searchLabel = "Students Name";
+export const searchLabel = "Students Name:";
