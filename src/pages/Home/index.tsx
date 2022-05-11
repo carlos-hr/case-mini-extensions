@@ -1,13 +1,9 @@
-import { Login, Logout, ResultCard, SearchArea } from "../../components";
+import { SearchForm } from "../../components";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <Login/>
-      <Logout/>
-      <ResultCard />
-      <SearchArea/>
+      <SearchForm />
     </div>
   );
 };

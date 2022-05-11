@@ -1,7 +1,15 @@
+import { classNameLabel, studentsLabel } from "./locales";
+import "./styles.css";
+
 const ResultCard = () => {
   return (
-    <div>
-      <h1>ResultCard</h1>
+    <div className="card">
+      <div className="content">
+        <strong>{classNameLabel}</strong>
+        <p>CS 103</p>
+        <strong>{studentsLabel}</strong>
+        <p>Joe, Jerry, Sid</p>
+      </div>
     </div>
   );
 };
