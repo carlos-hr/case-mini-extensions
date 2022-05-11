@@ -1,8 +1,9 @@
 import { SearchForm } from "../../components";
+import './styles.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <SearchForm />
     </div>
   );
